@@ -1,0 +1,90 @@
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color:black;
+    padding-block: 2px;
+}
+
+#image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 10%;
+}
+
+h2{
+    color: rgb(114, 106, 106);
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#carnaval{
+    background-color: rgb(224, 209, 209);
+    padding: 10px 0 100px 0;
+}
+#lecarnava{
+    padding: 0px 20px;
+}
+
+footer {
+    background-color: burlywood;
+    color: cadetblue;
+    padding: 20px 0 10px 0;
+    text-align:center
+}
+  form{
+      margin: 0 auto;
+      max-width: 900px;
+}
+
+  textarea,button{
+      border:none;
+      width: 55%;
+      padding: 15px 10px;
+      margin: 1px;
+      font-size: 1.2em;
+      font-family: "advent pro",sans-serif;
+      border-radius: 8px;
+}
+   textarea{
+       height: 100px;
+}
+         
+   button{
+       font-size: 1.5em;
+       background-color: rgb(218, 228, 228);
+}
+
+
+    button:hover{
+        background-color: burlywood;
+        color: rgb(189, 115, 19);
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+}
+    
+     #deuxiemeTrait{
+         height: 1px;
+         width: 75%;
+         background-color: cornflowerblue;
+         margin: 60px auto;
+}
+
+
+    #copyrightEIcons{
+        display: flex;
+        margin-bottom: 20px;
+        padding: 0 10%;
+}
+    
+    #copyright{
+        width: 50%;
+        text-align: right;
+        color:chocolate;
+}
+
+

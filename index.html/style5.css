@@ -1,0 +1,176 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "advent pro", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color:black;
+    padding-block: 2px;
+}
+
+h2{
+    color: rgb(114, 106, 106);
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#logo{
+    font-family: "Dincing script",cursive;
+    font-weight: bolder;
+    float: left;
+    color: white;
+}
+
+nav{
+    background-color: rgba(3, 3, 3, 0.61);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    opacity: 10px 16px;
+}
+
+#hti{
+    padding-top: 60px;
+    background: url(hti.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 500px;
+
+}
+
+
+
+h1{
+    font-family: "Dincing scrip",cursive;
+    text-align: center;
+    color: rgb(28, 138, 114);
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+}
+
+#premiertrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: rgb(6, 16, 73);
+    box-shadow: 1px 3px 2px black;
+}
+
+h3{
+    text-align: center;
+    color:rgb(35, 85, 16);
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+  
+/* ***** grandtitre ******* */
+#grandtitre{
+    background-color: rgb(224, 209, 209);
+    padding: 10px 0 100px 0;
+}
+#introduction{
+    padding: 0px 20px;
+}
+ 
+#image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 10%;
+}
+    
+ 
+ /***** footer ***** */
+ footer {
+     background-color: burlywood;
+     color: cadetblue;
+     padding: 20px 0 10px 0;
+     text-align:center
+ }
+   form{
+       margin: 0 auto;
+       max-width: 900px;
+   }
+
+   textarea,button{
+       border:none;
+       width: 55%;
+       padding: 15px 10px;
+       margin: 1px;
+       font-size: 1.2em;
+       font-family: "advent pro",sans-serif;
+       border-radius: 8px;
+   }
+    textarea{
+        height: 100px;
+    }
+          
+    button{
+        font-size: 1.5em;
+        background-color: rgb(218, 228, 228);
+    }
+
+    button:hover{
+        background-color: burlywood;
+        color: rgb(189, 115, 19);
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    
+     #deuxiemeTrait{
+         height: 1px;
+         width: 75%;
+         background-color: cornflowerblue;
+         margin: 60px auto;
+     }
+
+
+    #copyrightEIcons{
+        display: flex;
+        margin-bottom: 20px;
+        padding: 0 10%;
+    }
+    
+    #copyright{
+        width: 50%;
+        text-align: right;
+        color:chocolate;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

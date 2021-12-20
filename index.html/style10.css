@@ -1,0 +1,95 @@
+#tourisme{
+    height: 1400px;
+    background-color: beige;
+    padding: 1px 2%;
+}
+
+#h2{
+    padding: 60px;
+}
+
+#tourisme li{
+margin: 150px 100px 0 100px;
+height: 226px;
+width: 70%;
+max-width: 550px;
+float: left;
+box-shadow: 6px 6px 28px -1px rgb(5, 5, 5);
+}
+#tourisme p{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(184, 228, 195);
+    float: right;
+    margin: 60px -180px 0 0;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: -4px 4px 0 1px rgb(17, 17, 16);
+}
+
+#bassinbleu{
+    background: url(bassinbleu.jpg) ;
+}
+
+#baie{
+    background: url(baie.jpg);
+}
+
+footer {
+    background-color: burlywood;
+    color: cadetblue;
+    padding: 20px 0 10px 0;
+    text-align:center
+}
+  form{
+      margin: 0 auto;
+      max-width: 900px;
+}
+
+  textarea,button{
+      border:none;
+      width: 55%;
+      padding: 15px 10px;
+      margin: 1px;
+      font-size: 1.2em;
+      font-family: "advent pro",sans-serif;
+      border-radius: 8px;
+}
+   textarea{
+       height: 100px;
+}
+         
+   button{
+       font-size: 1.5em;
+       background-color: rgb(218, 228, 228);
+}
+
+
+    button:hover{
+        background-color: burlywood;
+        color: rgb(189, 115, 19);
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+}
+    
+     #deuxiemeTrait{
+         height: 1px;
+         width: 75%;
+         background-color: cornflowerblue;
+         margin: 60px auto;
+}
+
+
+    #copyrightEIcons{
+        display: flex;
+        margin-bottom: 20px;
+        padding: 0 10%;
+}
+    
+    #copyright{
+        width: 50%;
+        text-align: right;
+        color:chocolate;
+}
+
+
